@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <hibernate-mapping >
+    <class name ="org.hibernate.Student" table= "Student">
+    <id name = "id" column="sid">
+    <generator class ="increment"></generator>
+    </id>
+    <property name = "name" type="string" column="sname"></property>
+     <property name = "course"  type="string" column="scourse"></property>
+      <property name = "email" type="string" column="semail"></property>
+       <property name = "address" type="string" column="saddress"></property>
+    </class>
+    </hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+ <hibernate-mapping >
+    <class name ="org.hibernate.Employee" table= "employee">
+    <id name = "id" column="eid">
+    <generator class ="increment"></generator>
+    </id>
+    <property name = "name" type="string" column="ename"></property>
+     <property name = "post"  type="string" column="epost"></property>
+      <property name = "salary"  column="esalary"></property>
+      <property name ="age" column ="eage"></property>
+       <property name = "address" type="string" column="saddress"></property>
+    </class>
+    </hibernate-mapping>
